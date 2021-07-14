@@ -6,9 +6,11 @@ This implementation bases on https://github.com/wang-xinyu/tensorrtx/tree/master
 Usage:
 
 # build out binary:
-   mkdir build && cd build
-   cmake ..
-   make
+mkdir build && cd build
+
+cmake ..
+
+make
 
 # serialize model to trt engine file
 ./yolov5 -s [.wts] [.engine] [s/m/l/x or c gd gw] 
